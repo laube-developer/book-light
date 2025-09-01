@@ -1,5 +1,5 @@
 "use client"
-import { ChangeEventHandler, useState } from "react";
+import { useState } from "react";
 
 import { getReadingLightColor } from "../../shared/utils";
 
