@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💡 Controle de Iluminação para Leitura
 
-## Getting Started
+Este é um aplicativo web simples e elegante para controlar a temperatura da cor de uma luz de leitura, oferecendo um ajuste suave entre tons frios e quentes.
 
-First, run the development server:
+# Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Inspirado na interface de controle de brilho do iPhone, este aplicativo apresenta um slider horizontal personalizado. O usuário pode deslizar o controle para:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Valores positivos (direita): Aumentar a temperatura da cor, movendo-se de um branco neutro para um suave tom amarelado/laranja.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Valores negativos (esquerda): Diminuir a temperatura da cor, variando de branco neutro para um sutil tom azulado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A cor de fundo do slider se adapta em tempo real para refletir a mudança de temperatura, proporcionando uma experiência visual intuitiva.
 
-## Learn More
+# Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+O projeto foi desenvolvido usando as seguintes tecnologias:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- React: Para a construção da interface de usuário dinâmica e interativa.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Tailwind CSS: Para estilização rápida e responsiva, garantindo um design limpo e moderno sem a necessidade de CSS tradicional.
 
-## Deploy on Vercel
+- Next.js: Framework para backend com node.js e React.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Como Usar
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Para testar o controle, basta deslizar o mouse sobre a barra do slider. Você verá a cor e o valor mudarem em tempo real, simulando um ajuste de iluminação.
